@@ -5,7 +5,7 @@
  * @version static
  * @author & creator Shanto Islam
  * @to do paragraph hover Antimtion
-  https://github.com/shantoislam6/
+ https://github.com/shantoislam6/Para-hover.js/
  * 
 */
 function ParaHover(obj){
