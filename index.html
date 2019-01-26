@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JUSt FOR GRID</title>
+    <link rel="stylesheet" href="src/animate.min.css">
+    <style>
+       .container{
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           width: 100%;
+           max-width: 1200px;
+           margin: 0px auto;
+           text-align: center;
+       }p{
+           font-size: 18px;
+       }
+       .instance{
+           margin: 20px 0;
+       }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="instance">
+            <h1>Example one : hoverName:rubberBand</h1>
+	      <p id="texthover1" class="animated" >Lorem ipsum dolor iamet consectetur adipisicing elit. Odio eligendi quae obcaecati iste culpa sit, natus quis deserunt voluptate aspernatur quisquam earum necessitatibus consequatur, quas fugiat, aperiam voluptatum. Quidem officiis reprehenderit doloremque quod! Consequuntur facilis provident ab! Eaque soluta cupiditate asperiores enim laboriosam unde voluptas assumenda saepe repudiandae nesciunt! Quia.</p>
+        </div>
+
+        <div class="instance" style="color:blueviolet" >
+            <h1>Example tow : hoverName:rubberBand</h1>
+	      <p  id="texthover2" class="animated" >Lorem ipsum dolor iamet consectetur adipisicing elit. Odio eligendi quae obcaecati iste culpa sit, natus quis deserunt voluptate aspernatur quisquam earum necessitatibus consequatur, quas fugiat, aperiam voluptatum. Quidem officiis reprehenderit doloremque quod! Consequuntur facilis provident ab! Eaque soluta cupiditate asperiores enim laboriosam unde voluptas assumenda saepe repudiandae nesciunt! Quia.</p>
+        </div>
+
+        <div class="instance" style="color:rgb(18, 144, 70)" >
+                <h1>Example three : hoverName:bouce</h1>
+              <p  id="texthover3" class="animated" >Lorem ipsum dolor iamet consectetur adipisicing elit. Odio eligendi quae obcaecati iste culpa sit, natus quis deserunt voluptate aspernatur quisquam earum necessitatibus consequatur, quas fugiat, aperiam voluptatum. Quidem officiis reprehenderit doloremque quod! Consequuntur facilis provident ab! Eaque soluta cupiditate asperiores enim laboriosam unde voluptas assumenda saepe repudiandae nesciunt! Quia.</p>
+         </div>
+
+    </div>
+    
+    
+    <script src="src/min.para-hover.js"></script>
+	<script>
+
+		 
+        //instance one
+       new ParaHover({
+             container : document.getElementById('texthover1'), //include  container as a any single nodeParent where you want hover animated
+             hoverName :'rubberBand', //you can use any animtaion from animate.css class like bouce,jello , tada , rubberBand, and more  for hovername;
+          hoverDuration: 1000, //ms
+            hoverDelay : 100,//ms
+           wordspeching: '3px' //word speching amon each word. ou have to must set this property;
+
+        }).int();  
+
+         //instance tow
+       new ParaHover({
+             container : document.getElementById('texthover2'), //include paragraph container where you want hover animated
+             hoverName :'tada', //you can use any animtaion from animate.css class like bouce,jello , tada , rubberBand, and more  for hovername;
+          hoverDuration: 1000, //ms
+            hoverDelay : 100,//ms
+           wordspeching: '3px' //word speching amon each word. ou have to must set this property;
+
+        }).int();
+          //instance tow
+       new ParaHover({
+             container : document.getElementById('texthover3'), //include paragraph container where you want hover animated
+             hoverName :'bounce', //you can use any animtaion from animate.css class like bouce,jello , tada , rubberBand, and more  for hovername;
+          hoverDuration: 1000, //ms
+            hoverDelay : 100,//ms
+           wordspeching: '3px' //word speching amon each word. ou have to must set this property;
+
+        }).int();   
+
+
+	</script>
+</body>
+</html>
