@@ -1,4 +1,4 @@
-# Para-hover.js[![Build Status](https://shantoislam6.github.io/Para-hover.js/)
+# Para-hover.js(https://shantoislam6.github.io/Para-hover.js/)
 A paragraph hover aniamtion plugin 
 ### [LIVE DEMO ➫](https://shantoislam6.github.io/Para-hover.js/)
 ## Documentation
