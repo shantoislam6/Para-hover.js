@@ -3,7 +3,7 @@ A paragraph hover aniamtion plugin
 ### [LIVE DEMO ➫](https://shantoislam6.github.io/Para-hover.js/)
 ## Documentation
 
-It just take seconds to install and use WOW.js!
+First of all download the source code
 [Downloade](https://github.com/shantoislam6/Para-hover.js/archive/master.zip)
 
 ### Dependencies
